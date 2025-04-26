@@ -1,2 +1,2 @@
 # spam_detection
-the project is based on email security including email text check ham or spam , and url links and implemented certain apis for different functionality
+Focusing on email security, this project incorporates email text classification (ham/spam) and URL link analysis, supported by implemented APIs for diverse functionalities
