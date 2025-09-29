@@ -2,6 +2,7 @@ Intelligent Threat Detection using AI in SOC
 A next-generation email security system powered by Machine Learning, DistilBERT, and real-time Threat Intelligence APIs to detect spam, phishing, spoofing, and malicious attachments.
 
  Features:
+ 
 1-Multi-class email classification (Ham, Spam, Promotions, Marketing, Phishing)
 2-DistilBERT-powered text analysis for email content understanding
 3-Real-time threat intelligence using:
@@ -20,7 +21,9 @@ Threat Intelligence APIs → Validates URLs, scans attachments, and checks domai
 Threat Scoring & Alerts → Generates threat scores and alerts for suspicious emails
 Dashboard & UI → Flask web interface for monitoring results
 
-📂 Project Structure
+## 📂 Project Structure  
+
+```bash
 📦 Intelligent-Threat-Detection
 ├── app.py                  # Flask main application
 ├── config.json             # Project configuration
@@ -37,8 +40,10 @@ Dashboard & UI → Flask web interface for monitoring results
 ├── training_args.bin       # DistilBERT training args
 ├── vocab.txt               # Vocabulary file
 ├── vocab - Copy.txt        # Backup vocabulary
+```
 
 ⚡ Tech Stack
+
 Python (Flask, Pandas, NumPy, Requests)
 Transformers (HuggingFace) – DistilBERT
 APIs – Google Safe Browsing, VirusTotal
@@ -51,27 +56,32 @@ Clone the repo
 ```bash
 git clone https://github.com/your-username/Intelligent-Threat-Detection.git
 cd Intelligent-Threat-Detection
-
-
+```
+Install dependencies
+```
 pip install -r requirements.txt
-
+```
 
 
 Run Flask app
+```
 python app.py
+```
 
-
-
+```
 [Open in browser
 ](http://127.0.0.1:5000/
 )
 ```
+
 📊 Results
+
 ✅ High accuracy spam/phishing classification with DistilBERT
 ✅ Real-time malicious URL & attachment detection
 ✅ End-to-end working SOC-inspired system with user-friendly dashboard
 
 👨‍💻 Contributors:-
+
 Atishay Jain – DistilBERT training, API integration, Flask UI (~70% contribution)
 Harsh Arora – Data preprocessing, literature survey
 Joel K Jose – Dashboard design, documentation
