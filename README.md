@@ -45,27 +45,26 @@ APIs – Google Safe Browsing, VirusTotal
 Email Security – SPF, DKIM, DMARC
 Visualization – Dashboards & Reports
 
-🔧 Installation & Usage:-
+## 🔧 Installation & Usage  
 
-Clone the repo
-
+Clone the repo  
+```bash
 git clone https://github.com/your-username/Intelligent-Threat-Detection.git
 cd Intelligent-Threat-Detection
 
 
-Install dependencies
-
 pip install -r requirements.txt
 
 
-Run Flask app
 
+Run Flask app
 python app.py
 
 
-Open in browser
 
-http://127.0.0.1:5000/
+[Open in browser
+](http://127.0.0.1:5000/
+)
 
 📊 Results
 ✅ High accuracy spam/phishing classification with DistilBERT
